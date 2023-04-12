@@ -1,0 +1,351 @@
+@media (min-width: 1400px) {
+  
+}
+
+@media (max-width: 1200px) {
+
+  .donation {grid-template-columns: 1fr;}
+  .contacts {flex-direction: column;}
+  .contact-details {width: 100%; padding: 0 0 0 0;}
+  .map {width: 100%; margin: 64px 0 64px 0; }
+  .persons {flex-direction: column;}
+  .persons-list { gap: 64px;}
+  .persons-image img {
+    width: 100%;
+    height: auto;
+  }
+  .persons-information {padding: 24px 24px 8px 24px;}
+  .persons-image {width: 100%;}
+  .instruments-list {
+    display: grid;
+    grid-row-gap: 32px;
+    grid-column-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .instruments-item, .instruments-image, .instruments-image img {width: 100%;}
+}
+
+@media (max-width: 992px) {
+  .header__top {padding: 16px 0 16px 0;}
+  .header__menu {
+    display: none;
+  }
+  .slider .slider-title {
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .slider .slider-description {
+    margin: 24px 0 0 0;
+    text-align: center;
+  }
+  .abonnez-vous-form {margin: 0 0 0 0;}
+  .abonnez-vous-form input { width: 100%;}
+  .footer-access { margin:32px 0 0 0}
+  .footer-access button { width: 100%;}
+
+  .agenda {margin:64px 0 0 0}
+
+  .search-form.active {
+    height: 149px;
+  }
+
+  .search-form__inner {
+    padding: 54px 0 0 0;
+  }
+
+  .artist-photo {
+    width: 30%;
+  }
+
+  .artist-photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .artist-biography {
+    width: 70%;
+  }
+
+  .persons-list {  grid-template-columns: 1fr;}
+
+  .page-image { margin: 0 0 32px 0;}
+
+  .mobile__menu.active {overflow: scroll;}
+  .mobile__menu.active .menu-list li { }margin: 16px 0 0 0;
+  .mobile__menu.active .menu-list {
+    border-bottom: 2px solid #ededed;
+    padding: 0 0 16px 0;
+  }
+
+}
+
+@media (min-width: 992px) {
+.page__inner {
+  padding: 0 96px;
+}
+
+.mobile__menu .container {padding: 0 20px 0 4px;}
+.mobile__menu.active .menu { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 191px 0px;
+ }
+}
+
+
+@media (max-width: 768px) {
+  .slider .slider-title {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .slider .slider-description {
+    margin: 16px 0 0 0;
+  }
+  .phone, .search { display: none;}
+  .lang {margin: 0 0 0 0;}
+
+  .abonnez-vous h4, .nous-contacter h4 {
+    text-align: center;
+  }
+
+  .abonnez-vous-description p {
+    text-align: center;
+  }
+  .nous-contacter {
+    align-items: center;
+  }
+  .nous-contacter a {
+    text-align: center;
+  }
+  .footer-frame.all-rights-reserved{
+    align-items: center;
+  }
+  .footer-frame.all-rights-reserved p {
+text-align: center;
+  }
+  .agenda-description h1, .actualites-description h1, .page-description h1 {
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 0 16px 0;
+  }
+
+
+  .artist-biography h2{
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .lang-list.active {
+    margin: 34px 0 0 12px;
+  }
+
+  .mobile-search-form {
+    display: block;
+  }
+
+  .filtre {
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr;
+}
+
+.artist-biography {
+  width: 100%;
+  margin: 24px 0 0 0;
+}
+
+.artist-information {
+  align-items: center;
+  padding: 64px 0 0px 0;
+}
+
+.artist-photo {
+  width: 50%;
+}
+.program-image img {
+  width: 164px;
+    height: auto;
+}
+
+.program {
+  padding: 0 0 64px 0;
+}
+
+.program-information {
+  margin: 0 0 0 32px;
+}
+
+.filter-dates {
+  flex-direction: column;
+}
+
+.actualites-list, .concerts-list {
+  display: grid;
+  grid-row-gap: 32px;
+  grid-column-gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.filter-dates {
+  display: grid;
+  gap: 16px;
+  grid-auto-flow: row;
+  grid-template-columns: auto;
+  padding: 0 0 64px 0;
+}
+
+.dates {
+  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: auto;
+  grid-auto-flow: row;
+}
+
+.navigation {
+  padding: 96px 32px 0 32px;
+}
+
+
+.card .card-number { background-size: 16px 12px; padding: 0 0 0 48px; background-position: 16px 23px;}
+
+.concert {
+  flex-direction: column;
+}
+
+.concert .agenda-image {
+  width: 100%;
+  margin: 0 0 0 0; }
+
+  .concert .agenda-description {
+    width: 100%;
+    padding: 24px 0 0 0;
+  }
+
+  .story { padding: 0 0 32px 0; }
+
+  .story-information {
+    flex-direction: column;
+  }
+  .story-image {
+    width: 100%;
+  }
+  .story-text {
+    width: 100%;
+    margin: 24px 0 24px 0;
+  }
+
+  .instruments-list {
+    display: grid;
+    grid-row-gap: 32px;
+    grid-column-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  .mobile-search-form {
+    display: none;
+  }
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+  .agenda, .actualites {margin: 32px 0 0 0;}
+
+  .agenda-description {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .abonnez-vous-form form {flex-direction: column;}
+  .agenda-when {
+    flex-direction: row;
+     width: 100%;
+    justify-content: center;
+  }
+  .actualites-title {width: 100%; text-align: center;}
+  .agenda-when div+div {margin:0 0 0 16px}
+  .agenda__inner {display: block;}
+  .agenda-item-data, .agenda-item-month {font-size: 32px; line-height: 32px;}
+  .swiper-navone, .swiper-navtwo {justify-content: space-between;}
+  .swiper-agenda-button-next, .swiper-agenda-button-prev {margin-top: 24px;}
+  .swiper-agenda-button-prev {margin: 24px 40px 0 0;}
+  .swiper-actualites-button-prev {margin: 32px 40px 0 0;}
+  .swiper-actualites-button-next, .swiper-actualites-button-prev {margin-top: 32px;}
+
+  .mobile-search-form .search-form__inner form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program { flex-direction: column; }
+  .program-image img {width: 100%;height: auto;}
+  .program-information {margin: 32px 0 0 0;}
+
+  .navigation {
+    padding: 64px 0 0 0;
+  }
+  
+  .card {padding: 48px 24px;}
+  .data-confirmation {padding: 24px;}
+
+  .concerts-list {
+    grid-template-columns: 1fr;
+  }
+
+  .agenda-title p {
+    text-align: center;
+    padding: 16px 0 0 0;
+  }
+
+  .agenda-title {
+    flex-direction: column;
+  } 
+
+  .concerts-list .agenda-item-data, .agenda-item-month {
+    font-size: 32px !important;
+    line-height: 32px !important;
+}
+
+.concerts-list .agenda-item-data, .agenda-item-month {
+  font-size: 32px !important;
+  line-height: 32px !important;
+}
+
+
+}
+
+@media (max-width: 420px) {
+  .slider .slider-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .slider .slider-description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .actualites-list {
+    grid-template-columns: 1fr;
+  }
+
+  .instruments-list {
+    display: grid;
+    grid-row-gap: 32px;
+    grid-column-gap: 16px;
+  }
+
+  .instruments-title {
+    font-size: 14px;
+  }
+
+}
